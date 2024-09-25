@@ -1,2 +1,2 @@
-# obsidian-aurora
+# Aurora
 An Obsidian theme 
