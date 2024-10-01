@@ -215,3 +215,50 @@ li.is-collapsed .list-bullet:after,
   background-color: var(--list-marker-color-collapsed);
   box-shadow: 0 0 0 4px rgba(var(--background-modifier-active-hover), 0.1);
 }
+
+/* Table */
+table:not(.dataview) {
+  --table-header-background: #191919;
+  --table-header-background-hover: #191919;
+  --table-header-color: #dadada;
+  --table-text-color: #939393;
+  --table-text-size: 16px;
+  --table-background: #212121;
+  --table-row-background-hover: #282828;
+  --table-row-alt-background: #212121;
+  --table-row-alt-background-hover: #282828;
+}
+
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table:not(.dataview) {
+  max-width: 100%;
+  width: 100%;
+}
+
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table>tbody>tr>td:not(.dataview) {
+  border-top: 0px;
+  border-inline: none;
+}
+
+table:not(.dataview)>thead>tr>th {
+  text-align: center;
+  border: none;
+  padding: 14px 0;
+  font-size: 18px;
+}
+
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table:not(.dataview)>tbody>tr>td {
+  padding: 16px 16px;
+  text-align: center;
+}
+
+table:not(.dataview)>tbody>tr:hover>td {
+  color: var(--interactive-accent-hover);
+}
+
+table:not(.dataview)>tbody>tr>td>.internal-link {
+  color: var(--interactive-accent);
+}
+
+table:not(.dataview)>tbody>tr:hover>td>.internal-link {
+  color: var(--interactive-accent-hover);
+}
