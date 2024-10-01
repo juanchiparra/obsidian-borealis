@@ -195,3 +195,23 @@ a.tag[href],
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button:hover {
   background: rgba(var(--rgb-primary), 8%);
 }
+
+/* List */
+:is(.cm-formatting-list-ul, .markdown-rendered ul > li)>.list-bullet::after {
+  border: 1px solid var(--list-marker-color);
+}
+
+:is(ul:not(li > ul) > li > ul > li,
+  ul:not(li > ul) > li > ul > li > ul > li > ul > li,
+  ul:not(li > ul) > li > ul > li > ul > li > ul > li > ul > li > ul > li,
+  ul:not(li > ul) > li > ul > li > ul > li > ul > li > ul > li > ul > li ul > li > ul > li)>.list-bullet::after,
+:is(.HyperMD-list-line-2, .HyperMD-list-line-4, .HyperMD-list-line-6, .HyperMD-list-line-8) .cm-formatting-list-ul>.list-bullet::after {
+  background-color: transparent;
+}
+
+li.is-collapsed .list-bullet:after,
+.is-collapsed ~ .cm-formatting-list .list-bullet:after {
+  --background-modifier-active-hover: var(--rgb-primary);
+  background-color: var(--list-marker-color-collapsed);
+  box-shadow: 0 0 0 4px rgba(var(--background-modifier-active-hover), 0.1);
+}
