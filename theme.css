@@ -178,3 +178,20 @@ a.tag[href],
 .callout[data-callout="secondary"]>.callout-content>.has-list-bullet {
   margin-block: 0;
 }
+
+/*---Button---*/
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button {
+  background-color: rgba(var(--rgb-primary), 4%);
+  color: var(--color-primary);
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  font-size: 10px;
+  transform: none;
+  transition: all .1s linear;
+  letter-spacing: 2px;
+}
+
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button:hover {
+  background: rgba(var(--rgb-primary), 8%);
+}
