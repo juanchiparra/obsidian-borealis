@@ -1,0 +1,39 @@
+.theme-dark {
+  /*---Colors---*/
+  --color-primary: #a1f98f;
+  --rgb-primary: 161, 249, 143;
+  --transparent-primary: rgba(161, 249, 143, 0.6);
+  --color-secondary: #e78ff9;
+  --rgb-secondary: 231, 143, 249;
+  --transparent-secondary: rgba(231, 143, 249, 0.6);
+  /*---Backgrounds---*/
+  --background-primary: #141414;
+  --background-primary-alt: #141414;
+  --background-secondary: #141414;
+  --background-secondary-alt: #141414;
+  --background-modifier-border: #141414;
+  --background-modifier-form-field: #141414;
+  /*---Text---*/
+  --text-accent: var(--color-primary);
+  --text-accent-hover: var(--color-primary);
+  --text-normal: #d1d1d1;
+  --text-muted-rgb: #ff2f00;
+  --text-faint: var(--color-primary);
+  --text-error: #CF6679;
+  --text-error-hover: #ff2f00;
+  --text-highlight-bg: rgba(var(--rgb-primary), 0.40);
+  --text-highlight-bg-active: #ff2f00;
+  --text-selection: rgba(var(--rgb-primary), 0.25);
+  --text-on-accent: #141414;
+  /*---Interactive---*/
+  --interactive-normal: var(--color-primary);
+  --interactive-hover: var(--color-primary);
+  --interactive-accent: var(--color-primary);
+  --interactive-accent-rgb: var(--color-primary);
+  --interactive-accent-hover: var(--color-primary);
+  --interactive-success: var(--color-primary);
+  /*---Scrollbar---*/
+  --scrollbar-bg: rgba(95, 94, 94, 0.5);
+  --scrollbar-thumb-bg: rgba(95, 94, 94, 0.5);
+  --scrollbar-active-thumb-bg: rgba(95, 94, 94, 0.5);
+}
