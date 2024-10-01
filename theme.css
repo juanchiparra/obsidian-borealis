@@ -67,3 +67,15 @@ body {
   --link-external-decoration: underline;
   --link-external-decoration-hover: underline;
 }
+
+/*---Checkbox---*/
+body {
+  --checkbox-radius: 50%;
+  --checkbox-color: var(--color-primary);
+  --checkbox-color-hover: var(--color-primary);
+  --checkbox-border-color: var(--color-primary);
+  --checkbox-border-color-hover: var(--color-primary);
+  --checklist-done-decoration: none;
+  --checklist-done-color: none;
+  --checkbox-margin-inline-start: none;
+}
