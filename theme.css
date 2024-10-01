@@ -50,3 +50,20 @@ body {
   --bold-color: var(--color-primary);
   --italic-color: var(--color-secondary);
 }
+
+/*---Links---*/
+body {
+  --link-color: var(--text-accent);
+  --link-color-hover: var(--text-accent-hover);
+  --link-decoration: none;
+  --link-decoration-hover: underline;
+  --link-weight: none;
+  --link-unresolved-color: var(--text-accent);
+  --link-unresolved-opacity: 0.6;
+  --link-unresolved-decoration-style: underline;
+  --link-unresolved-decoration-color: var(--text-accent);
+  --link-external-color: var(--text-accent);
+  --link-external-color-hover: var(--text-accent-hover);
+  --link-external-decoration: underline;
+  --link-external-decoration-hover: underline;
+}
