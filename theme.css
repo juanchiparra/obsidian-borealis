@@ -79,3 +79,102 @@ body {
   --checklist-done-color: none;
   --checkbox-margin-inline-start: none;
 }
+
+/*---Tags---*/
+a.tag[href],
+.cm-tag {
+  color: var(--color-primary);
+  background-color: rgba(var(--rgb-primary), 0.1);
+}
+
+
+/*---Callout---*/
+.callout-title {
+  padding: var(--size-4-2);
+  gap: 6px;
+}
+
+.callout-content {
+  padding: var(--size-4-2);
+}
+
+.callout-content> :first-child {
+  margin-top: 0px;
+}
+
+.callout-content> :last-child {
+  margin-bottom: 0px;
+}
+
+.callout-fold {
+  margin-left: auto;
+  padding-right: 0;
+}
+
+.callout:is([data-callout="primary"], [data-callout="secondary"]) {
+  color: rgb(var(--callout-color));
+  font-size: 14px;
+}
+
+.callout:is([data-callout="primary"], [data-callout="secondary"]) {
+  color: rgb(var(--callout-color));
+  --checkbox-border-color-hover: rgb(var(--callout-color));
+}
+
+/* Primary */
+.callout[data-callout="primary"] {
+  --callout-color: var(--rgb-primary);
+  --callout-icon: check;
+  --icon-size: 1.2em;
+}
+
+.callout[data-callout="primary"]>.callout-title {
+  --callout-color: var(--rgb-primary);
+}
+
+.callout[data-callout="primary"]>.callout-content {
+  font-size: 14px;
+  color: var(--color-primary);
+  --checkbox-color: var(--color-primary);
+  --checkbox-color-hover: var(--color-primary);
+  --checkbox-border-color: var(--color-primary);
+  --checklist-done-decoration: line-through;
+  --checklist-done-color: rgba(var(--rgb-primary), 0.4);
+  --list-marker-color: var(--color-primary);
+  --text-faint: var(--color-primary);
+  --link-color: var(--color-primary);
+  --link-color-hover: var(--color-primary);
+}
+
+.callout[data-callout="primary"]>.callout-content>.has-list-bullet {
+  margin-block: 0;
+}
+
+/* Secondary */
+.callout[data-callout="secondary"] {
+  --callout-color: var(--rgb-secondary);
+  --callout-icon: check;
+  --icon-size: 1.2em;
+}
+
+.callout[data-callout="secondary"]>.callout-title {
+  --callout-color: var(--rgb-secondary);
+}
+
+.callout[data-callout="secondary"]>.callout-content {
+  font-size: 14px;
+  color: var(--color-secondary);
+  --checkbox-color: var(--color-secondary);
+  --checkbox-color-hover: var(--color-secondary);
+  --checkbox-border-color: var(--color-secondary);
+  --checklist-done-decoration: line-through;
+  --checklist-done-color: rgba(var(--rgb-secondary), 0.4);
+  --list-marker-color: var(--color-secondary);
+  --text-faint: var(--color-secondary);
+  --link-color: var(--color-secondary);
+  --link-color-hover: var(--color-secondary);
+}
+
+.callout[data-callout="secondary"]>.callout-content>.has-list-bullet {
+  margin-block: 0;
+}
