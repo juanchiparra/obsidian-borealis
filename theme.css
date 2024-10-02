@@ -196,7 +196,7 @@ a.tag[href],
   background: rgba(var(--rgb-primary), 8%);
 }
 
-/* List */
+/*---List---*/
 :is(.cm-formatting-list-ul, .markdown-rendered ul > li)>.list-bullet::after {
   border: 1px solid var(--list-marker-color);
 }
@@ -216,7 +216,7 @@ li.is-collapsed .list-bullet:after,
   box-shadow: 0 0 0 4px rgba(var(--background-modifier-active-hover), 0.1);
 }
 
-/* Table */
+/*---Table---*/
 table:not(.dataview) {
   --table-header-background: #191919;
   --table-header-background-hover: #191919;
@@ -261,4 +261,21 @@ table:not(.dataview)>tbody>tr>td>.internal-link {
 
 table:not(.dataview)>tbody>tr:hover>td>.internal-link {
   color: var(--interactive-accent-hover);
+}
+
+/*---Properties---*/
+body {
+  --metadata-label-font-size: 12px;
+  --metadata-input-font-size: 12px;
+}
+
+.metadata-properties-title {
+  font-size: 12px;
+  color: var(--metadata-input-text-color);
+}
+
+
+.metadata-property:is([data-property-key="tags"]) .multi-select-pill {
+  --pill-background: rgba(var(--rgb-primary), 0.1);
+  --pill-background-hover: rgba(var(--rgb-primary), 0.16);
 }
