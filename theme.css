@@ -280,6 +280,8 @@ body {
 }
 
 /*---Dataview---*/
+
+/* Table */
 table.dataview {
   --table-header-color: #dadada;
   --table-text-color: #939393;
@@ -312,4 +314,29 @@ table.dataview tbody tr td .internal-link {
 
 table.dataview tbody tr:hover td .internal-link {
   color: var(--interactive-accent-hover);
+}
+
+/* Tasks */
+.dataview.inline-field>.inline-field-key::after {
+  content: "|";
+  padding: 4px;
+}
+
+.task-list-item .dataview[class*="inline-field"] {
+  font-size: 10px;
+  background-color: transparent;
+  color: grey;
+}
+
+ul li.task-list-item[data-task="x"],
+ul li.task-list-item[data-task="X"] {
+  text-decoration: none;
+}
+
+.dataview.inline-field-value {
+  padding-left: 0;
+}
+
+.dataview.inline-field-key {
+  padding-right: 0;
 }
