@@ -340,3 +340,21 @@ ul li.task-list-item[data-task="X"] {
 .dataview.inline-field-key {
   padding-right: 0;
 }
+
+/*---Canvas---*/
+body {
+  --canvas-color-1: 120, 246, 95;
+  --canvas-color-2: 161, 249, 143;
+  --canvas-color-3: 202, 252, 191;
+  --canvas-color-4: 221, 95, 246;
+  --canvas-color-5: 231, 143, 249;
+  --canvas-color-6: 241, 191, 252;
+}
+
+.canvas-selection {
+  background-color: hsla(var(--color-accent-hsl), 0.06);
+}
+
+.canvas-selection.mod-group-selection {
+  background-color: hsla(var(--color-accent-hsl), 0.04);
+}
