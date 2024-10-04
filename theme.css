@@ -6,6 +6,8 @@
   --color-secondary: #e78ff9;
   --rgb-secondary: 231, 143, 249;
   --transparent-secondary: rgba(231, 143, 249, 0.6);
+  --color-accent: var(--color-primary);
+  --color-accent-hsl: var(--hsl-primary);
   /*---Backgrounds---*/
   --background-primary: #141414;
   --background-primary-alt: #191919;
