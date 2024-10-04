@@ -360,3 +360,7 @@ body {
 .canvas-selection.mod-group-selection {
   background-color: hsla(var(--color-accent-hsl), 0.04);
 }
+
+.canvas-control-item {
+  color: var(--background-primary);
+}
