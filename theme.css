@@ -364,3 +364,12 @@ body {
 .canvas-control-item {
   color: var(--background-primary);
 }
+
+/*---Settings---*/
+.setting-item-control > .dropdown {
+  color: var(--background-primary);
+}
+
+.setting-item-control > button {
+  color: var(--background-primary);
+}
