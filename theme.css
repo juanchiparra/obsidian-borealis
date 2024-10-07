@@ -89,7 +89,6 @@ a.tag[href],
   background-color: rgba(var(--rgb-primary), 0.1);
 }
 
-
 /*---Callout---*/
 .callout-title {
   padding: var(--size-4-2);
@@ -373,3 +372,40 @@ body {
 .setting-item-control > button {
   color: var(--background-primary);
 }
+
+/*---Syntax highlighting ---*/
+
+/* 
+Syntax highlighting: Aurora
+MIT License
+Copyright (c) 2024 Juanchi Parra
+https://github.com/juanchiparra
+*/
+
+body {
+  --code-background: var(--background-primary-alt);
+  --code-white-space: pre-wrap;
+  --code-size: 13px;
+  --code-normal: #dadada;
+  --code-comment: #4a4a4a;
+  --code-function: #e78ff9;
+  --code-important: #cb4b16;
+  --code-keyword: #a1f98f;
+  --code-operator: #dadada;
+  --code-property: #a1f98f;
+  --code-punctuation: #f8f8f2;
+  --code-string: #f9e78f;
+  --code-tag: #a1f98f;
+  --code-value: #e78ff9;
+}
+
+.markdown-preview-view .token.string {
+  font-weight: 300;
+}
+
+.markdown-source-view .HyperMD-codeblock {
+  --code-background: var(--background-primary-alt);
+}
+
+
+
