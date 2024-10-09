@@ -8,6 +8,9 @@
   --transparent-secondary: rgba(231, 143, 249, 0.6);
   --color-accent: var(--color-primary);
   --color-accent-hsl: var(--hsl-primary);
+  --accent-h: 110;
+  --accent-s: 90%;
+  --accent-l: 77%;
   /*---Backgrounds---*/
   --background-primary: #141414;
   --background-primary-alt: #191919;
