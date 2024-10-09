@@ -180,6 +180,17 @@ a.tag[href],
   margin-block: 0;
 }
 
+/*---Blockquote---*/
+:root blockquote {
+  border-left: 0.4rem solid var(--color-secondary);
+  border-radius: 0 0.3rem 0.3rem 0;
+  font-size: var(--font-small);
+  padding-block: 1.2em;
+  background-color: rgba(var(--rgb-secondary), 0.03);
+  color: var(--color-secondary);
+  font-style: italic;
+}
+
 /*---Button---*/
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button {
   background-color: rgba(var(--rgb-primary), 4%);
