@@ -239,15 +239,15 @@ li.is-collapsed .list-bullet:after,
 
 /*---Table---*/
 table:not(.dataview) {
-  --table-header-background: #191919;
-  --table-header-background-hover: #191919;
-  --table-header-color: #dadada;
-  --table-text-color: #939393;
+  --table-header-background: var(--background-primary-alt);
+  --table-header-background-hover: var(--background-primary-alt);
+  --table-header-color: var(--text-normal);
+  --table-text-color: var(--text-normal-light);
   --table-text-size: 16px;
-  --table-background: #212121;
-  --table-row-background-hover: #282828;
-  --table-row-alt-background: #212121;
-  --table-row-alt-background-hover: #282828;
+  --table-background: var(--background-table);
+  --table-row-background-hover: var(--background-table-hover);
+  --table-row-alt-background: var(--background-table);
+  --table-row-alt-background-hover: var(--background-table-hover);
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table:not(.dataview) {
