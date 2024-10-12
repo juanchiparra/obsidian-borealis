@@ -8,8 +8,8 @@ This theme is currently in its early stages, and what is published is only an in
 ###  Before launch
 - [x] Create base structure
 - [ ] Optimize mobile version
-- [ ] Fix issues
-- [ ] Create .theme-light
+- [x] Fix issues
+- [x] Create .theme-light
 - [ ] Configure [Style settings](https://github.com/mgmeyers/obsidian-style-settings)
 - [ ] Testing
 - [ ] Launch 
