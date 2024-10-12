@@ -20,6 +20,8 @@
   --background-secondary-alt: #141414;
   --background-modifier-border: #141414;
   --background-modifier-form-field: #141414;
+  --background-table: #212121;
+  --background-table-hover: #282828;
   /*---Text---*/
   --text-accent: var(--color-primary);
   --text-accent-hover: var(--color-primary);
