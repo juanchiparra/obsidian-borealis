@@ -441,8 +441,8 @@ Copyright (c) 2024 Juanchi Parra
 https://github.com/juanchiparra
 */
 
-body {
-  --code-background: var(--background-primary-alt);
+.sh1 {
+  --code-background: #141414;
   --code-white-space: pre-wrap;
   --code-size: 13px;
   --code-normal: #dadada;
@@ -458,13 +458,203 @@ body {
   --code-value: #e78ff9;
 }
 
-.markdown-preview-view .token.string {
+.sh1 .markdown-preview-view .token.string {
   font-weight: 300;
 }
 
-.markdown-source-view .HyperMD-codeblock {
-  --code-background: var(--background-primary-alt);
+/* 
+Syntax highlighting: GitHub Dark Default
+https://github.com/primer/github-vscode-theme
+*/
+
+.sh2 {
+  --code-background: #0d1117;
+  --code-white-space: nowrap;
+  --code-size: 13px;
+  --code-normal: #E6EDF3;
+  --code-comment: #8B949E;
+  --code-function: #d2a8ff;
+  --code-important: #ff7b72;
+  --code-keyword: #FF7B72;
+  --code-operator: #79C0FF;
+  --code-property: #79C0FF;
+  --code-punctuation: #E6EDF3;
+  --code-string: #a5d6ff;
+  --code-tag: #7ee787;
+  --code-value: #79C0FF;
 }
 
+.sh2 .markdown-preview-view .token.hexcode.color {
+  color: #a5d6ff;
+}
 
+.sh2 .markdown-preview-view .token.selector {
+  color: #7ee787;
+}
 
+.sh2 .markdown-preview-view .token.class-name {
+  color: #ffa657
+}
+
+.sh2 .markdown-preview-view .token.console {
+  color: #c9d1d9;
+}
+
+/* 
+Syntax highlighting: a11y Dark
+https://github.com/ericwbailey/a11y-syntax-highlighting
+*/
+
+.sh3 {
+  --code-background: #2b2b2b;
+  --code-white-space: pre-wrap;
+  --code-size: 13px;
+  --code-normal: #d4d4d4;
+  --code-comment: #d4d0ab;
+  --code-function: #f5ab35;
+  --code-important: #ff5555;
+  --code-keyword: #dcc6e0;
+  --code-operator: #d4d4d4;
+  --code-property: #dcc6e0;
+  --code-punctuation: #d4d4d4;
+  --code-string: #abe338;
+  --code-tag: #39BAE6;
+  --code-value: #f5ab35;
+}
+
+.sh3 .markdown-preview-view .token.class-name,
+.sh3 .markdown-preview-view .token.function {
+  color: #00e0e0;
+}
+
+.sh3 .markdown-preview-view .token.console {
+  color: #ffa07a;
+}
+
+/* 
+Syntax highlighting: Atom One Dark
+https://github.com/atom/atom/blob/master/packages/one-dark-syntax/README.md 
+*/
+
+.sh4 {
+  --code-background: #282c34;
+  --code-white-space: pre;
+  --code-size: 13px;
+  --code-normal: #abb2bf;
+  --code-comment: #5c6370;
+  --code-function: #61aeee;
+  --code-important: #e06c75;
+  --code-keyword: #c678dd;
+  --code-operator: #abb2bf;
+  --code-property: #98c379;
+  --code-punctuation: #abb2bf;
+  --code-string: #98c379;
+  --code-tag: #c678dd;
+  --code-value: #d19a66;
+}
+
+/* 
+Syntax highlighting: Monokai Sublime
+https://github.com/highlightjs/highlight.js
+*/
+
+.sh5 {
+  --code-background: #23241f;
+  --code-white-space: pre-wrap;
+  --code-size: 13px;
+  --code-normal: #f8f8f2;
+  --code-comment: #75715e;
+  --code-function: #a6e22e;
+  --code-important: #cb4b16;
+  --code-keyword: #f92672;
+  --code-operator: #f8f8f2;
+  --code-property: #a6e22e;
+  --code-punctuation: #f8f8f2;
+  --code-string: #e6db74;
+  --code-tag: #f8f8f2;
+  --code-value: #ae81ff;
+}
+
+.sh5 .markdown-preview-view .token.class-name {
+  color: #f8f8f2;
+}
+
+.sh5 .markdown-preview-view .token.boolean {
+  color: #ae81ff;
+}
+
+.sh5 .markdown-preview-view .token.console {
+  color: #e6db74;
+}
+
+.sh5 .markdown-preview-view .token.builtin,
+.sh5 .cm-s-obsidian span.cm-builtin {
+  color: #e6db74;
+}
+
+.sh5 .markdown-preview-view .token.variable,
+.sh5 .cm-s-obsidian span.cm-variable {
+  color: #e6db74;
+}
+
+/* 
+Syntax highlighting: Tokyo Night Dark
+https://github.com/enkia/tokyo-night-vscode-theme/tree/master
+*/
+
+.sh6 {
+	--code-background: #1a1b26;
+	--code-white-space: pre-wrap;
+	--code-size: 13px;
+	--code-normal: #9aa5ce;
+	--code-comment: #51597d;
+	--code-function: #ffcc66;
+	--code-important: #ff6e6e;
+	--code-keyword: #bb9af7;
+	--code-operator: #9aa5ce;
+	--code-property: #78dce8;
+	--code-punctuation: #9aa5ce;
+	--code-string: #a9dc76;
+	--code-tag: #f7768e;
+	--code-value: #ff9e64;
+}
+
+.sh6 .markdown-preview-view .token.class-name,
+.sh6 .markdown-preview-view .token.function {
+	color: #7dcfff;
+}
+
+.sh6 .markdown-preview-view .token.console {
+	color: #f7768e;
+}
+
+/* 
+Syntax highlighting: Tomorrow Night Bright
+https://github.com/chriskempson/tomorrow-theme/tree/master
+*/
+
+.sh7 {
+  --code-background: #000000;
+  --code-white-space: pre;
+  --code-size: 13px;
+  --code-normal: #cccccc;
+  --code-comment: #969896;
+  --code-function: #e78c45;
+  --code-important: #ff6666;
+  --code-keyword: #cc99cc;
+  --code-operator: #cccccc;
+  --code-property: #99cccc;
+  --code-punctuation: #cccccc;
+  --code-string: #b9ca4a;
+  --code-tag: #cc99cc;
+  --code-value: #e78c45;
+}
+
+.sh7 .markdown-preview-view .token.class-name,
+.sh7 .markdown-preview-view .token.function {
+  color: #7aa6da;
+}
+
+.sh7 .markdown-preview-view .token.console {
+  color: #d54e53;
+}
