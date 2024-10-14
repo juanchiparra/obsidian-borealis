@@ -28,7 +28,8 @@
   --text-accent-hover: var(--color-primary);
   --text-normal: #141414;
   --text-normal-light: #444444;
-  --text-muted-rgb: #ff2f00;
+  --text-muted: #444444;
+  --text-muted-rgb: rgb(68, 68, 68);
   --text-faint: var(--color-primary);
   --text-error: #CF6679;
   --text-error-hover: #ff2f00;
@@ -79,7 +80,8 @@
   --text-accent-hover: var(--color-primary);
   --text-normal: #d1d1d1;
   --text-normal-light: #939393;
-  --text-muted-rgb: #ff2f00;
+  --text-muted: #b8b8b8;
+  --text-muted-rgb: rgb(184, 184, 184);
   --text-faint: var(--color-primary);
   --text-error: #CF6679;
   --text-error-hover: #ff2f00;
