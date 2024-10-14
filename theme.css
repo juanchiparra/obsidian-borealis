@@ -484,6 +484,35 @@ input[type="color"] {
   box-shadow: none;
 }
 
+div.setting-item-control > div > div.theme-dark > div.pickr {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-radius: 50%;
+}
+
+div.theme-dark > div.pickr .pcr-button:after,
+div.theme-dark > div.pickr .pcr-button:before {
+  border-radius: 40px;
+  box-shadow: none;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+div.theme-light > div.pickr .pcr-button:after,
+div.theme-light > div.pickr .pcr-button:before {
+  border-radius: 40px;
+  box-shadow: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+div.theme-dark > div.pickr-reset > button > svg {
+  stroke: var(--text-on-accent-inverted);
+}
+
+div.theme-light > div.pickr-reset > button > svg { 
+  stroke: var(--text-on-accent-inverted);
+}
+
 /*---Syntax highlighting ---*/
 
 /* 
@@ -655,29 +684,29 @@ https://github.com/enkia/tokyo-night-vscode-theme/tree/master
 */
 
 .sh6 {
-	--code-background: #1a1b26;
-	--code-white-space: pre-wrap;
-	--code-size: 13px;
-	--code-normal: #9aa5ce;
-	--code-comment: #51597d;
-	--code-function: #ffcc66;
-	--code-important: #ff6e6e;
-	--code-keyword: #bb9af7;
-	--code-operator: #9aa5ce;
-	--code-property: #78dce8;
-	--code-punctuation: #9aa5ce;
-	--code-string: #a9dc76;
-	--code-tag: #f7768e;
-	--code-value: #ff9e64;
+  --code-background: #1a1b26;
+  --code-white-space: pre-wrap;
+  --code-size: 13px;
+  --code-normal: #9aa5ce;
+  --code-comment: #51597d;
+  --code-function: #ffcc66;
+  --code-important: #ff6e6e;
+  --code-keyword: #bb9af7;
+  --code-operator: #9aa5ce;
+  --code-property: #78dce8;
+  --code-punctuation: #9aa5ce;
+  --code-string: #a9dc76;
+  --code-tag: #f7768e;
+  --code-value: #ff9e64;
 }
 
 .sh6 .markdown-preview-view .token.class-name,
 .sh6 .markdown-preview-view .token.function {
-	color: #7dcfff;
+  color: #7dcfff;
 }
 
 .sh6 .markdown-preview-view .token.console {
-	color: #f7768e;
+  color: #f7768e;
 }
 
 /* 
