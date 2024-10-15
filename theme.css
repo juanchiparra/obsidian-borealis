@@ -828,7 +828,7 @@ settings:
   -
     id: color-secondary
     title: 'Color secondary'
-    description: Used for italic, callout and blockquote
+    description: Used for italic, button, callout and blockquote
     type: variable-themed-color
     opacity: false
     format: hex
@@ -846,7 +846,7 @@ settings:
   -
     id: rgb-secondary
     title: 'Color secondary (RGB)'
-    description: Used for callout and blockquote
+    description: Used for button, callout and blockquote
     type: variable-themed-color
     opacity: false
     format: rgb-values
