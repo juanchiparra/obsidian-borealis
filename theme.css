@@ -118,37 +118,38 @@ body {
   --h4-size: 16px;
   --h5-size: 16px;
   --h6-size: 14px;
+  --font-heading: 'JetBrains Mono', monospace;
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>h2 {
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-heading);
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>h3 {
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-heading);
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>h4 {
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-heading);
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>h5 {
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-heading);
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>h6 {
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-heading);
 }
 
 /*---Typographic---*/
@@ -960,6 +961,12 @@ settings:
     description: Used for codeblocks, tables, etc.
     type: variable-text
     default: '"Source Code Pro", monospace'
+  - 
+    id: font-heading
+    title: Heading Font
+    description: Used for heading.
+    type: variable-text
+    default: '"JetBrains Mono", monospace'
   - 
     id: syntax-highlighting
     title: Syntax Highlighting
