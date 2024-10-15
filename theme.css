@@ -297,7 +297,9 @@ a.tag[href],
 }
 
 /*---Button---*/
-.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button {
+
+/* Primary */
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button.primary {
   background-color: rgba(var(--rgb-primary), 4%);
   color: var(--color-primary);
   border: none;
@@ -310,7 +312,25 @@ a.tag[href],
   margin-right: 6px;
 }
 
-.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button:hover {
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button.primary:hover {
+  background: rgba(var(--rgb-primary), 8%);
+}
+
+/* Secondary */
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button.secondary {
+  background-color: rgba(var(--rgb-primary), 4%);
+  color: var(--color-primary);
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  font-size: 10px;
+  transform: none;
+  transition: all .1s linear;
+  letter-spacing: 2px;
+  margin-right: 6px;
+}
+
+.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button.secondary:hover {
   background: rgba(var(--rgb-primary), 8%);
 }
 
