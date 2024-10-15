@@ -265,6 +265,7 @@ a.tag[href],
   transform: none;
   transition: all .1s linear;
   letter-spacing: 2px;
+  margin-right: 6px;
 }
 
 .view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>p>button:hover {
