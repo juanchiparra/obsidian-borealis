@@ -1,16 +1,55 @@
 ![Aurora](docs/Aurora.png)
 
-An Obsidian theme 
+An obsidian theme inspired by the vibrant colors of the aurora borealis, illuminating the night.
 
-### ⚠️ Building in public
+A minimalist theme with two main colors that allows you to stay focused and create a productive workspace.
 
-This theme is currently in its early stages, and what is published is only an initial draft, far from the desired result.
+⚠️ **Building in public**: This theme is currently in its initial phase, and what is published is only its first version, far from the desired result. I'll be working to include improvements and more features.
 
-###  Before launch
-- [x] Create base structure
-- [ ] Optimize mobile version
-- [x] Fix issues
-- [x] Create .theme-light
-- [ ] Configure [Style settings](https://github.com/mgmeyers/obsidian-style-settings)
-- [ ] Testing
-- [ ] Launch 
+## Features
+- Dark and light mode
+- Checkbox
+- Buttons
+- Callouts
+- List
+- Table
+- Custom dataview styles
+- Blockquote
+- Properties
+- Canvas
+- Seven syntax highlighting available
+- Style Settings enabled
+
+## Preview
+
+### Dark
+
+### Light
+
+### Checkbox
+
+### Buttons
+
+### Callout
+
+### List
+
+### Table
+
+### Dataview
+
+### Blockquote
+
+### Properties
+
+## Settings
+
+You can use [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) to adjust the following theme variables:
+- Colors
+- Backgrounds
+- Fonts
+- Syntax highlighting
+
+## Contributing
+
+Your contributions are welcome. If you find a bug or consider that there is something that can be improved, you are more than welcome to make a pull request or report it in issues.
