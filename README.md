@@ -1,4 +1,5 @@
-# Aurora
+![Aurora](docs/Aurora.png)
+
 An Obsidian theme 
 
 ### ⚠️ Building in public
