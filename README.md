@@ -1,4 +1,4 @@
-![Aurora](docs/Aurora.png)
+![borealis](docs/borealis.png)
 
 An obsidian theme inspired by the vibrant colors of the aurora borealis, illuminating the night.
 
@@ -23,13 +23,13 @@ A minimalist theme with two main colors that allows you to stay focused and crea
 ## Preview
 
 ### Dark
-![Aurora](docs/dark.png)
+![borealis](docs/dark.png)
 
 ### Light
-![Aurora](docs/light.png)
+![borealis](docs/light.png)
 
 ### Checkbox
-![Aurora](docs/checkbox.png)
+![borealis](docs/checkbox.png)
 ```
 - [x] Lorem ipsum dolor sit amet
 - [x] Accumsan risus senectus nulla
@@ -38,7 +38,7 @@ A minimalist theme with two main colors that allows you to stay focused and crea
 ```
 
 ### Buttons
-![Aurora](docs/button.png)
+![borealis](docs/button.png)
 ```html
 <button class="primary">+ Backlog</button>
 <button class="primary">+ Task</button>
@@ -47,7 +47,7 @@ A minimalist theme with two main colors that allows you to stay focused and crea
 ```
 
 ### Callout
-![Aurora](docs/callout.png)
+![borealis](docs/callout.png)
 ```
 > [!primary] Primary
 > - Lorem ipsum odor amet, consectetuer adipiscing
@@ -61,21 +61,21 @@ A minimalist theme with two main colors that allows you to stay focused and crea
 ```
 
 ### List
-![Aurora](docs/list.png)
+![borealis](docs/list.png)
 
 ### Table
-![Aurora](docs/table.png)
+![borealis](docs/table.png)
 
 ### Dataview
-![Aurora](docs/dataview-table.png)
+![borealis](docs/dataview-table.png)
 
-![Aurora](docs/dataview-task.png)
+![borealis](docs/dataview-task.png)
 
 ### Blockquote
-![Aurora](docs/blockquote.png)
+![borealis](docs/blockquote.png)
 
 ### Properties
-![Aurora](docs/properties.png)
+![borealis](docs/properties.png)
 
 ## Settings
 
