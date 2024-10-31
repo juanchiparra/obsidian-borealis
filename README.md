@@ -32,8 +32,8 @@ A minimalist theme with two main colors that allows you to stay focused and crea
 ![borealis](docs/checkbox.png)
 ```
 - [x] Lorem ipsum dolor sit amet
-- [x] Accumsan risus senectus nulla
-- [c] Efficitur luctus praesent in hac
+- [c] Accumsan risus senectus nulla
+- [p] Efficitur luctus praesent in hac
 - [ ] Nam mus fringilla risus consequat
 ```
 
