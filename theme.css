@@ -107,6 +107,17 @@
   --scrollbar-active-thumb-bg: rgba(95, 94, 94, 0.3);
 }
 
+/*---Title bar---*/ 
+body { 
+  --titlebar-background: var(--background-titlebar); 
+  --titlebar-background-focused: var(--background-titlebar); 
+  --titlebar-text-color: var(--text-norml-light);
+  --tab-text-color: var(--text-normal-light);
+  --tab-text-color-active: var(--text-normal);
+  --tab-text-color-focused: var(--text-normal-light);
+  --tab-text-color-focused-active-current: var(--text-normal); 
+}
+
 /*---Title---*/
 .inline-title {
   font-size: 28px;
