@@ -38,8 +38,8 @@
   --text-highlight-bg: rgba(var(--rgb-primary), 0.40);
   --text-highlight-bg-active: #ff2f00;
   --text-selection: rgba(var(--rgb-primary), 0.25);
-  --text-on-accent: #141414;
-  --text-on-accent-inverted: #f6f6f6;
+  --text-on-accent: #f6f6f6;
+  --text-on-accent-inverted: #141414;
   /*---Interactive---*/
   --interactive-normal: var(--color-primary);
   --interactive-hover: var(--color-primary);
@@ -92,8 +92,8 @@
   --text-highlight-bg: rgba(var(--rgb-primary), 0.40);
   --text-highlight-bg-active: #ff2f00;
   --text-selection: rgba(var(--rgb-primary), 0.25);
-  --text-on-accent: #d1d1d1;
-  --text-on-accent-inverted: #141414;
+  --text-on-accent: #141414;
+  --text-on-accent-inverted: #d1d1d1;
   /*---Interactive---*/
   --interactive-normal: var(--color-primary);
   --interactive-hover: var(--color-primary);
@@ -583,7 +583,7 @@ body {
 
 /*---Settings---*/
 .setting-item-control > .dropdown {
-  color: var(--text-on-accent-inverted);
+  color: var(--text-on-accent);
 }
 
 .setting-item-control>.dropdown:focus {
@@ -591,11 +591,11 @@ body {
 }
 
 .setting-item-control>button {
-  color: var(--text-on-accent-inverted);
+  color: var(--text-on-accent);
 }
 
 button.mod-cancel {
-  color: var(--text-on-accent-inverted);
+  color: var(--text-on-accent);
 }
 
 .theme-light .setting-item-control>.dropdown {
@@ -625,7 +625,7 @@ input[type="color"] {
 }
 
 .community-modal-button-container button { 
-  color: var(--text-on-accent-inverted); 
+  color: var(--text-on-accent); 
   box-shadow: none; 
 }
 
@@ -656,15 +656,15 @@ div.theme-light > div.pickr .pcr-button:before {
 }
 
 div.theme-dark > div.pickr-reset > button > svg {
-  stroke: var(--text-on-accent-inverted);
+  stroke: var(--text-on-accent);
 }
 
 div.theme-light > div.pickr-reset > button > svg { 
-  stroke: var(--text-on-accent-inverted);
+  stroke: var(--text-on-accent);
 }
 
 div.vertical-tab-header-group-items>div.vertical-tab-nav-item.is-active { 
-  color: var(--text-on-accent-inverted); 
+  color: var(--text-on-accent); 
 }
 
 /*---Syntax highlighting ---*/
