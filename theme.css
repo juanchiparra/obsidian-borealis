@@ -25,6 +25,7 @@
   --background-modifier-form-field: #f6f6f6;
   --background-table: #f8f8f8;
   --background-table-hover: #fafafa;
+  --background-titlebar: #f0f0f0;
   /*---Text---*/
   --text-accent: var(--color-primary);
   --text-accent-hover: var(--color-primary);
@@ -79,6 +80,7 @@
   --background-modifier-form-field: #141414;
   --background-table: #212121;
   --background-table-hover: #282828;
+  --background-titlebar: #1c1c1c;
   /*---Text---*/
   --text-accent: var(--color-primary);
   --text-accent-hover: var(--color-primary);
