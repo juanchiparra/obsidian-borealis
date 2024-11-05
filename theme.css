@@ -624,6 +624,11 @@ input[type="color"] {
   background-color: var(--background-primary);
 }
 
+.community-modal-button-container button { 
+  color: var(--text-on-accent-inverted); 
+  box-shadow: none; 
+}
+
 .setting-item-control button,
 .dropdown {
   box-shadow: none;
@@ -656,6 +661,10 @@ div.theme-dark > div.pickr-reset > button > svg {
 
 div.theme-light > div.pickr-reset > button > svg { 
   stroke: var(--text-on-accent-inverted);
+}
+
+div.vertical-tab-header-group-items>div.vertical-tab-nav-item.is-active { 
+  color: var(--text-on-accent-inverted); 
 }
 
 /*---Syntax highlighting ---*/
