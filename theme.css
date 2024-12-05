@@ -300,6 +300,7 @@ a.tag[href],
 
 .callout-content {
   padding: var(--size-4-2);
+  --list-marker-color: rgba(var(--callout-color), 1);
 }
 
 .callout-content> :first-child {
