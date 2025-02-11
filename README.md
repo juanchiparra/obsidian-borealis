@@ -6,6 +6,9 @@ A minimalist theme with two main colors that allows you to stay focused and crea
 
 ⚠️ **Building in public**: This theme is currently in its initial phase, and what is published is only its first version, far from the desired result. I'll be working to include improvements and more features.
 
+## Sample vault
+You can download the [sample vault](https://github.com/juanchiparra/obsidian-borealis/tree/main/vault) to see Borealis in action.
+
 ## Features
 - Dark and light mode
 - Checkbox
