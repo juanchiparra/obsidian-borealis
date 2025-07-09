@@ -48,6 +48,12 @@
   --interactive-accent-rgb: var(--color-primary);
   --interactive-accent-hover: var(--color-primary);
   --interactive-success: var(--color-primary);
+  --interactive-secondary-normal: var(--color-secondary);
+  --interactive-secondary-hover: var(--color-secondary);
+  --interactive-secondary-accent: var(--color-secondary);
+  --interactive-secondary-accent-rgb: var(--color-secondary);
+  --interactive-secondary-accent-hover: var(--color-secondary);
+  --interactive-secondary-success: var(--color-secondary);
   /*---Scrollbar---*/
   --scrollbar-bg: rgba(95, 94, 94, 0.1);
   --scrollbar-thumb-bg: rgba(95, 94, 94, 0.1);
@@ -103,6 +109,12 @@
   --interactive-accent-rgb: var(--color-primary);
   --interactive-accent-hover: var(--color-primary);
   --interactive-success: var(--color-primary);
+  --interactive-secondary-normal: var(--color-secondary);
+  --interactive-secondary-hover: var(--color-secondary);
+  --interactive-secondary-accent: var(--color-secondary);
+  --interactive-secondary-accent-rgb: var(--color-secondary);
+  --interactive-secondary-accent-hover: var(--color-secondary);
+  --interactive-secondary-success: var(--color-secondary);
   /*---Scrollbar---*/
   --scrollbar-bg: rgba(95, 94, 94, 0.1);
   --scrollbar-thumb-bg: rgba(95, 94, 94, 0.1);
@@ -454,7 +466,83 @@ li.is-collapsed .list-bullet:after,
 }
 
 /*---Table---*/
-table:not(.dataview) {
+
+/* Width */
+.tw1
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview) {
+  max-width: 100%;
+  width: 100%;
+}
+
+.tw2
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview) {
+  max-width: 80%;
+  width: 80%;
+}
+
+.tw3
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview) {
+  max-width: 60%;
+  width: 60%;
+}
+
+/* Height */
+.th1
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
+  padding: 16px 16px;
+}
+
+.th2
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
+  padding: 16px 16px;
+}
+
+.th3
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
+  padding: 4px 4px;
+}
+
+/* Style 1 */
+.t1 table:not(.dataview) {
   --table-header-background: var(--background-primary-alt);
   --table-header-background-hover: var(--background-primary-alt);
   --table-header-color: var(--text-normal);
@@ -466,38 +554,229 @@ table:not(.dataview) {
   --table-row-alt-background-hover: var(--background-table-hover);
 }
 
-.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table:not(.dataview) {
-  max-width: 100%;
-  width: 100%;
-}
-
-.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table>tbody>tr>td:not(.dataview) {
+.t1
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table
+  > tbody
+  > tr
+  > td:not(.dataview) {
   border-top: 0px;
   border-inline: none;
 }
 
-table:not(.dataview)>thead>tr>th {
+.t1 table:not(.dataview) > thead > tr > th {
   text-align: center;
   border: none;
   padding: 14px 0;
   font-size: 18px;
 }
 
-.view-content>.markdown-reading-view>.markdown-preview-view>.markdown-preview-section>div>table:not(.dataview)>tbody>tr>td {
-  padding: 16px 16px;
+.t1
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
   text-align: center;
 }
 
-table:not(.dataview)>tbody>tr:hover>td {
+.t1 table:not(.dataview) > tbody > tr:hover > td {
   color: var(--interactive-accent-hover);
 }
 
-table:not(.dataview)>tbody>tr>td>.internal-link {
+.t1 table:not(.dataview) > tbody > tr > td > .internal-link {
   color: var(--interactive-accent);
 }
 
-table:not(.dataview)>tbody>tr:hover>td>.internal-link {
+.t1 table:not(.dataview) > tbody > tr:hover > td > .internal-link {
   color: var(--interactive-accent-hover);
+}
+
+/* Style 2 */
+.t2 table:not(.dataview) {
+  --table-header-background: var(--background-primary-alt);
+  --table-header-background-hover: var(--background-primary-alt);
+  --table-header-color: var(--text-normal);
+  --table-text-color: var(--text-normal-light);
+  --table-text-size: 16px;
+  --table-background: var(--background-table);
+  --table-row-background-hover: var(--background-table-hover);
+  --table-row-alt-background: var(--background-table);
+  --table-row-alt-background-hover: var(--background-table-hover);
+}
+
+.t2
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table
+  > tbody
+  > tr
+  > td:not(.dataview) {
+  border-top: 0px;
+  border-inline: none;
+}
+
+.t2 table:not(.dataview) > thead > tr > th {
+  text-align: center;
+  border: none;
+  padding: 14px 0;
+  font-size: 18px;
+}
+
+.t2
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
+  text-align: center;
+}
+
+.t2 table:not(.dataview) > tbody > tr:hover > td {
+  color: var(--interactive-secondary-accent-hover);
+}
+
+.t2 table:not(.dataview) > tbody > tr > td > .internal-link {
+  color: var(--interactive-secondary-accent);
+}
+
+.t2 table:not(.dataview) > tbody > tr:hover > td > .internal-link {
+  color: var(--interactive-secondary-accent-hover);
+  text-decoration: underline;
+}
+
+/* Style 3 */
+.t3 table:not(.dataview) {
+  --table-header-background: rgba(var(--rgb-primary), 0.06);
+  --table-header-background-hover: rgba(var(--rgb-primary), 0.08);
+  --table-header-color: var(--text-normal);
+  --table-text-color: var(--text-normal-light);
+  --table-text-size: 16px;
+  --table-background: rgba(var(--rgb-primary), 0.04);
+  --table-row-background-hover: rgba(var(--rgb-primary), 0.1);
+  --table-row-alt-background: rgba(var(--rgb-primary), 0.04);
+  --table-row-alt-background-hover: rgba(var(--rgb-primary), 0.1);
+}
+
+.t3
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table
+  > tbody
+  > tr
+  > td:not(.dataview) {
+  border-top: 0px;
+  border-inline: none;
+}
+
+.t3 table:not(.dataview) > thead > tr > th {
+  text-align: center;
+  border: none;
+  padding: 14px 0;
+  font-size: 18px;
+}
+
+.t3
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
+  text-align: center;
+}
+
+.t3 table:not(.dataview) > tbody > tr:hover > td {
+  color: var(--interactive-accent-hover);
+}
+
+.t3 table:not(.dataview) > tbody > tr > td > .internal-link {
+  color: var(--interactive-accent);
+}
+
+.t3 table:not(.dataview) > tbody > tr:hover > td > .internal-link {
+  color: var(--interactive-accent-hover);
+}
+
+/* Style 4 */
+.t4 table:not(.dataview) {
+  --table-header-background: rgba(var(--rgb-secondary), 0.06);
+  --table-header-background-hover: rgba(var(--rgb-secondary), 0.08);
+  --table-header-color: var(--text-normal);
+  --table-text-color: var(--text-normal-light);
+  --table-text-size: 16px;
+  --table-background: rgba(var(--rgb-secondary), 0.04);
+  --table-row-background-hover: rgba(var(--rgb-secondary), 0.1);
+  --table-row-alt-background: rgba(var(--rgb-secondary), 0.04);
+  --table-row-alt-background-hover: rgba(var(--rgb-secondary), 0.1);
+}
+
+.t4
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table
+  > tbody
+  > tr
+  > td:not(.dataview) {
+  border-top: 0px;
+  border-inline: none;
+}
+
+.t4 table:not(.dataview) > thead > tr > th {
+  text-align: center;
+  border: none;
+  padding: 14px 0;
+  font-size: 18px;
+}
+
+.t4
+  .view-content
+  > .markdown-reading-view
+  > .markdown-preview-view
+  > .markdown-preview-section
+  > div
+  > table:not(.dataview)
+  > tbody
+  > tr
+  > td {
+  text-align: center;
+}
+
+.t4 table:not(.dataview) > tbody > tr:hover > td {
+  color: var(--interactive-secondary-accent-hover);
+}
+
+.t4 table:not(.dataview) > tbody > tr > td > .internal-link {
+  color: var(--interactive-secondary-accent);
+}
+
+.t4 table:not(.dataview) > tbody > tr:hover > td > .internal-link {
+  color: var(--interactive-secondary-accent-hover);
+  text-decoration: underline;
 }
 
 /*---Properties---*/
@@ -1112,6 +1391,67 @@ settings:
     description: Used for heading.
     type: variable-text
     default: '"JetBrains Mono", monospace'
+  -
+ - 
+    id: tables
+    title: Tables
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: width
+    title: Width
+    description: Used for styling code block
+    type: class-select
+    allowEmpty: false
+    default: tw1
+    options:
+    	-
+				label: Full-length
+				value: tw1
+    	-
+				label: Regular
+				value: tw2
+    	-
+				label: Narrow
+				value: tw3
+  -
+    id: height
+    title: Height
+    description: Used for styling code block
+    type: class-select
+    allowEmpty: false
+    default: th1
+    options:
+    	-
+				label: Full-length
+				value: th1
+    	-
+				label: Regular
+				value: th2
+    	-
+				label: Compact
+				value: th3
+  -
+    id: style
+    title: Style
+    description: Used for styling code block
+    type: class-select
+    allowEmpty: false
+    default: t1
+    options:
+    	-
+				label: Style 1
+				value: t1
+    	-
+				label: Style 2
+				value: t2
+    	-
+				label: Style 3
+				value: t3
+    	-
+				label: Style 4
+				value: t4
   -
     id: checkboxes
     title: Checkboxes
