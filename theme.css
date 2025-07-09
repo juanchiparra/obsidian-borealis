@@ -1401,7 +1401,7 @@ settings:
   -
     id: width
     title: Width
-    description: Used for styling code block
+    description: Adjusts the width of the tables
     type: class-select
     allowEmpty: false
     default: tw1
@@ -1418,7 +1418,7 @@ settings:
   -
     id: height
     title: Height
-    description: Used for styling code block
+    description: Adjusts the height of the tables
     type: class-select
     allowEmpty: false
     default: th1
@@ -1435,7 +1435,7 @@ settings:
   -
     id: style
     title: Style
-    description: Used for styling code block
+    description: Adjusts the style of the tables
     type: class-select
     allowEmpty: false
     default: t1
